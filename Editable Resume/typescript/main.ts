@@ -1,4 +1,4 @@
-const Form = document.getElementById("dynamic-resume")as HTMLFormElement;
+const Form = document.getElementById("editable-resume")as HTMLFormElement;
 const cvShowcaseElement = document.getElementById("Curriculum-Vitae")as HTMLDivElement;
 
 Form.addEventListener("submit",(event:Event)=>{
