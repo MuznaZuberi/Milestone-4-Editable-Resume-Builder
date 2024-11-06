@@ -1,5 +1,5 @@
 "use strict";
-const Form = document.getElementById("dynamic-resume");
+const Form = document.getElementById("editable-resume");
 const cvShowcaseElement = document.getElementById("Curriculum-Vitae");
 Form.addEventListener("submit", (event) => {
     event.preventDefault();
